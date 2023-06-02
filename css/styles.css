@@ -1,3 +1,8 @@
+* {
+  font-family: urbane rounded;
+  font-weight: 500;
+}
+
 body {
   width: 375px;
   margin: auto;
@@ -9,3 +14,112 @@ img {
   max-width: 100%;
 }
 
+h2 {
+  font-family: droog;
+}
+
+/* start of the header */
+header p {
+  text-align: center;
+  font-size: 14px;
+  font-weight: 500;
+  background-color: #EAE1B1;
+  color: #3D2873;
+  padding: 11px;
+  margin: 0;
+}
+
+nav {
+  background-color: #7E4B8E;
+  padding: 23px 16px;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+h1 {
+  width: 150px;
+  margin: 0;
+}
+
+.burger-menu {
+  width: 35px;
+}
+
+/* main section */
+strong {
+  font-weight: 600
+}
+
+main {
+  padding: 15px 20px 30px;
+  background-color: #3D2873;
+  color: #D2BBD7;
+}
+
+p {
+  margin-top: 0;
+}
+
+h2 {
+  color: #D395BB;
+  text-align: center;
+  font-size: 30px;
+  margin-top: 0;
+  margin-bottom: 35px;
+}
+
+.intro-section p {
+  margin-bottom: 60px;
+}
+
+.art-container {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.art-container img {
+  width: 139px;
+  height: 220px;
+  align-self: flex-start;
+}
+
+.art-container p {
+  width: 188px;
+  font-size: 18px;
+  margin-bottom: 15px;
+  margin-right: 8px;
+  line-height: 21.6px;
+}
+
+.art-container p:last-of-type {
+  margin-bottom: 35px;
+}
+
+h3 {
+  font-family: droog;
+  font-size: 22px;
+  text-align: center;
+  color: #EAE1B1;
+  margin-top: 0;
+  margin-bottom: 35px;
+}
+
+.invited img {
+  margin-bottom: 20px;
+}
+
+.invited strong {
+  font-weight: 700;
+}
+
+.invited p {
+  margin-bottom: 60px;
+}
+
+.skate-section p {
+  margin-bottom: 20px;
+}
+
+.skate-section img {
+  margin-bottom: 60px;
+}
