@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Calque_2" data-name="Calque 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 41.06 26.97">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #eae1b1;
+      }
+    </style>
+  </defs>
+  <g id="Maquette">
+    <g id="burger_menu" data-name="burger menu">
+      <rect class="cls-1" y="0" width="41.06" height="4.4" rx="1.72" ry="1.72"/>
+      <rect class="cls-1" x="0" y="11.29" width="41.06" height="4.41" rx="1.72" ry="1.72"/>
+      <rect class="cls-1" x="0" y="22.54" width="41.06" height="4.42" rx="1.72" ry="1.72"/>
+    </g>
+  </g>
+</svg>
