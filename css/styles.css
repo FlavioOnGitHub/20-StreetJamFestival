@@ -25,7 +25,7 @@ header p {
   font-weight: 500;
   background-color: #EAE1B1;
   color: #3D2873;
-  padding: 11px;
+  padding: 10px;
   margin: 0;
 }
 
@@ -34,6 +34,7 @@ nav {
   padding: 23px 16px;
   display: flex;
   flex-flow: row wrap;
+  justify-content: space-between;
 }
 
 h1 {
@@ -117,9 +118,89 @@ h3 {
 }
 
 .skate-section p {
+  margin-bottom: 18px;
+  font-size: 18px;
+}
+
+.skate-section p:last-of-type {
   margin-bottom: 20px;
 }
 
 .skate-section img {
   margin-bottom: 60px;
+}
+
+.music-section p {
+  margin-bottom: 18px;
+  font-size: 18px;
+}
+
+.music-section p:last-of-type {
+  margin-bottom: 20px;
+}
+
+.music-section img {
+  margin-bottom: 60px;
+}
+
+.food-section strong {
+  font-size: 18px;
+}
+
+.food-section p {
+  margin-bottom: 30px;
+}
+/* end of the main section */
+
+/* start of the footer */
+footer {
+  background-color: #7E4B8E;
+  padding: 30px 15px 15px;
+  color: #D2BBD7;
+}
+
+footer h2 {
+  color: #EDC4D9;
+}
+
+footer img {
+  height: 30px;
+}
+
+footer p {
+  font-weight: 300;
+}
+
+footer span {
+  font-size: 14px;
+  font-weight: 300;
+}
+
+footer p:nth-child(3) {
+  font-weight: 200;
+  font-size: 10px;
+  margin-bottom: 0;
+}
+
+.follow-us p {
+  font-size: 22px;
+  font-weight: 200;
+  margin-bottom: 26px;
+  text-align: center;
+}
+
+.follow-us {
+  align-self: flex-start;
+}
+
+.info-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.icons-container {
+  display: flex;
+  flex-flow: row wrap;
 }
