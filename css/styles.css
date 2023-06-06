@@ -18,7 +18,7 @@ h2 {
   font-family: droog;
 }
 
-/* start of the header */
+/* start of the header section */
 header p {
   text-align: center;
   font-size: 14px;
@@ -29,6 +29,7 @@ header p {
   margin: 0;
 }
 
+/* start of the nav-bar with an animated burger menu */
 nav {
   background-color: #7E4B8E;
   padding: 23px 16px;
@@ -42,23 +43,55 @@ h1 {
   margin: 0;
 }
 
-.burger-menu {
+/*burger menu*/
+button  {
+  background-color: transparent;
+  border: none;
+  padding: 0;
+}
+
+.menu-icon {
   width: 35px;
 }
 
-/* main section */
-strong {
-  font-weight: 600
+.nav-toggle ul {
+  list-style: none;
+  padding: 7px 120px 30px;
+  margin: 0;
+  text-align: center;
+  background-color: #7E4B8E;
+  position: absolute;
+  width: 375px;
+  box-sizing: border-box;
 }
 
+.nav-toggle a {
+  color: #EDC4D9;
+  text-decoration: none;
+  font-weight: 300;
+  font-size: 23px;
+}
+
+.menu-close {
+  display: none;
+}
+/* end of the header section */
+
+/* main section */
 main {
   padding: 15px 20px 30px;
   background-color: #3D2873;
   color: #D2BBD7;
 }
 
-p {
+strong {
+  font-weight: 600
+}
+
+main p {
   margin-top: 0;
+  line-height: 24px;
+  font-weight: 400;
 }
 
 h2 {
@@ -69,6 +102,7 @@ h2 {
   margin-bottom: 35px;
 }
 
+/* start of the art section with the artist */
 .intro-section p {
   margin-bottom: 60px;
 }
@@ -96,6 +130,7 @@ h2 {
   margin-bottom: 35px;
 }
 
+/* artist presentation */
 h3 {
   font-family: droog;
   font-size: 22px;
@@ -109,14 +144,12 @@ h3 {
   margin-bottom: 20px;
 }
 
-.invited strong {
-  font-weight: 700;
-}
-
 .invited p {
   margin-bottom: 60px;
 }
+/* end of the artist presentation and of the art section */
 
+/* start of the skate section */
 .skate-section p {
   margin-bottom: 18px;
   font-size: 18px;
@@ -129,7 +162,9 @@ h3 {
 .skate-section img {
   margin-bottom: 60px;
 }
+/* end of the skate section */
 
+/* start of the music section */
 .music-section p {
   margin-bottom: 18px;
   font-size: 18px;
@@ -142,15 +177,22 @@ h3 {
 .music-section img {
   margin-bottom: 60px;
 }
+/* end of the music section */
 
+/* start of the food section */
 .food-section strong {
   font-size: 18px;
 }
 
 .food-section p {
-  margin-bottom: 30px;
+  margin-bottom: 0;
 }
-/* end of the main section */
+
+.food-section p:first-of-type {
+  margin-bottom: 20px;
+}
+/* end of the main and the food section */
+
 
 /* start of the footer */
 footer {
@@ -169,6 +211,7 @@ footer img {
 
 footer p {
   font-weight: 300;
+  margin-bottom: 0;
 }
 
 footer span {
@@ -178,24 +221,26 @@ footer span {
 
 footer p:nth-child(3) {
   font-weight: 200;
-  font-size: 10px;
+  font-size: 12px;
   margin-bottom: 0;
+  margin-top: 16px;
 }
 
-.follow-us p {
+.social-media p {
   font-size: 22px;
   font-weight: 200;
   margin-bottom: 26px;
+  margin-top: 0;
   text-align: center;
 }
 
-.follow-us {
+.social-media {
   align-self: flex-start;
 }
 
 .info-container {
   display: flex;
-  flex-flow: row wrap;
+  flex-flow: row nowrap;
   justify-content: space-between;
   align-items: center;
 }
@@ -203,4 +248,38 @@ footer p:nth-child(3) {
 .icons-container {
   display: flex;
   flex-flow: row wrap;
+  justify-content: space-between;
+  width: 143px;
+  padding-left: 22px;
+  padding-right: 22px;
+  box-sizing: border-box;
 }
+
+.icons-container img:first-of-type, .icons-container img:nth-last-of-type(3) {
+  margin-bottom: 25px;
+}
+
+.icons-container img:nth-last-of-type(2) {
+  width: 35px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
