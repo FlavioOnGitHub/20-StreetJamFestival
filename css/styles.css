@@ -3,6 +3,10 @@
   font-weight: 500;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
   width: 375px;
   margin: auto;
@@ -54,13 +58,27 @@ button  {
   width: 35px;
 }
 
+.menu-icon:hover {
+  cursor: pointer;
+}
+
+.menu-close {
+  height: 30px;
+  height: 30px;
+}
+
+/* toggle */
+.nav-toggle {
+  display: none;
+}
+
 .nav-toggle ul {
   list-style: none;
   padding: 7px 120px 30px;
   margin: 0;
   text-align: center;
   background-color: #7E4B8E;
-  position: absolute;
+  position: relative;
   width: 375px;
   box-sizing: border-box;
 }
@@ -70,6 +88,12 @@ button  {
   text-decoration: none;
   font-weight: 300;
   font-size: 23px;
+}
+
+.nav-toggle a:hover {
+  text-decoration: solid;
+  font-size: 23.5px;
+  color: rgb(249, 217, 255);
 }
 
 .menu-close {
@@ -205,13 +229,10 @@ footer h2 {
   color: #EDC4D9;
 }
 
-footer img {
-  height: 30px;
-}
-
 footer p {
   font-weight: 300;
   margin-bottom: 0;
+  margin-top: 0;
 }
 
 footer span {
@@ -226,23 +247,23 @@ footer p:nth-child(3) {
   margin-top: 16px;
 }
 
-.social-media p {
-  font-size: 22px;
-  font-weight: 200;
-  margin-bottom: 26px;
-  margin-top: 0;
-  text-align: center;
+.info-container {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .social-media {
   align-self: flex-start;
 }
 
-.info-container {
-  display: flex;
-  flex-flow: row nowrap;
-  justify-content: space-between;
-  align-items: center;
+.social-media p {
+  font-size: 22px;
+  font-weight: 200;
+  margin-bottom: 26px;
+  margin-top: 0;
+  text-align: center;
 }
 
 .icons-container {
@@ -255,11 +276,21 @@ footer p:nth-child(3) {
   box-sizing: border-box;
 }
 
-.icons-container img:first-of-type, .icons-container img:nth-last-of-type(3) {
+footer img {
+  height: 30px;
+  transition: 1s;
+}
+
+footer img:hover {
+  scale: 1.1;
+  transition: 1s;
+}
+
+.icons-container a:first-of-type, .icons-container a:nth-last-of-type(3) {
   margin-bottom: 25px;
 }
 
-.icons-container img:nth-last-of-type(2) {
+.icons-container a:nth-last-of-type(2) {
   width: 35px;
 }
 

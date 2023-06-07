@@ -1,18 +1,19 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg id="Calque_2" data-name="Calque 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 27.35 27.35">
-  <defs>
-    <style>
-      .cls-1 {
-        fill: #eae1b1;
-      }
-    </style>
-  </defs>
-  <g id="Maquette">
-    <g id="burger_menu" data-name="burger menu">
-      <rect class="cls-1" x="-3.86" y="10.86" width="35.08" height="5.62" rx="1.72" ry="1.72" transform="translate(-5.66 13.68) rotate(-45)"/>
-      <g id="burger_menu-2" data-name="burger menu">
-        <rect class="cls-1" x="-3.86" y="10.86" width="35.08" height="5.62" rx="1.72" ry="1.72" transform="translate(13.68 33.02) rotate(-135)"/>
-      </g>
-    </g>
-  </g>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 27.1.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Calque_2_00000125565072502241690510000011975567868313702546_"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 21.8 21.8"
+	 style="enable-background:new 0 0 21.8 21.8;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#EAE1B1;}
+</style>
+<g id="Maquette">
+	<g id="burger_menu">
+		<path class="st0" d="M0.4,19.2L19.2,0.4c0.6-0.6,1.5-0.6,2,0l0.2,0.2c0.6,0.6,0.6,1.5,0,2L2.6,21.4c-0.6,0.6-1.5,0.6-2,0l-0.2-0.2
+			C-0.1,20.7-0.1,19.8,0.4,19.2z"/>
+		<g id="burger_menu_00000158011029171275896390000006021544461174309515_">
+			<path class="st0" d="M21.4,19.2L2.6,0.4c-0.6-0.6-1.5-0.6-2,0L0.4,0.6c-0.6,0.6-0.6,1.5,0,2l18.8,18.8c0.6,0.6,1.5,0.6,2,0
+				l0.2-0.2C22,20.7,22,19.8,21.4,19.2z"/>
+		</g>
+	</g>
+</g>
 </svg>
