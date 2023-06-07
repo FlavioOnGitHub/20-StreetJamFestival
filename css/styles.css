@@ -64,7 +64,8 @@ button  {
 
 .menu-close {
   height: 30px;
-  height: 30px;
+  width: 35px;
+  display: none;
 }
 
 /* toggle */
@@ -83,21 +84,26 @@ button  {
   box-sizing: border-box;
 }
 
+.nav-toggle li {
+  margin-bottom: 5px;
+}
+
+.nav-toggle li:last-of-type {
+  margin-bottom: 0;
+}
+
 .nav-toggle a {
   color: #EDC4D9;
   text-decoration: none;
   font-weight: 300;
   font-size: 23px;
+  transition: 0.5s;
 }
 
 .nav-toggle a:hover {
   text-decoration: solid;
-  font-size: 23.5px;
+  font-size: 23.3px;
   color: rgb(249, 217, 255);
-}
-
-.menu-close {
-  display: none;
 }
 /* end of the header section */
 
@@ -293,9 +299,6 @@ footer img:hover {
 .icons-container a:nth-last-of-type(2) {
   width: 35px;
 }
-
-
-
 
 
 

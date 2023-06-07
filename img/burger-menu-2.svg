@@ -1,19 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 27.1.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" id="Calque_2_00000125565072502241690510000011975567868313702546_"
-	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 21.8 21.8"
-	 style="enable-background:new 0 0 21.8 21.8;" xml:space="preserve">
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 30 30"
+	 style="enable-background:new 0 0 30 30;" xml:space="preserve">
 <style type="text/css">
 	.st0{fill:#EAE1B1;}
 </style>
-<g id="Maquette">
-	<g id="burger_menu">
-		<path class="st0" d="M0.4,19.2L19.2,0.4c0.6-0.6,1.5-0.6,2,0l0.2,0.2c0.6,0.6,0.6,1.5,0,2L2.6,21.4c-0.6,0.6-1.5,0.6-2,0l-0.2-0.2
-			C-0.1,20.7-0.1,19.8,0.4,19.2z"/>
-		<g id="burger_menu_00000158011029171275896390000006021544461174309515_">
-			<path class="st0" d="M21.4,19.2L2.6,0.4c-0.6-0.6-1.5-0.6-2,0L0.4,0.6c-0.6,0.6-0.6,1.5,0,2l18.8,18.8c0.6,0.6,1.5,0.6,2,0
-				l0.2-0.2C22,20.7,22,19.8,21.4,19.2z"/>
-		</g>
+<g id="Maquette_00000102502360982737112880000001974609788815696787_">
+	<path class="st0" d="M29.1,5.3L5.3,29.1c-1.2,1.2-3.1,1.2-4.3,0l0,0c-1.2-1.2-1.2-3.1,0-4.3L24.7,0.9c1.2-1.2,3.1-1.2,4.3,0l0,0
+		C30.3,2.2,30.3,4,29.1,5.3z"/>
+	<g id="Maquette_00000061438997019782903800000002496690605407454359_">
+		<path class="st0" d="M0.9,5.3l23.8,23.8c1.2,1.2,3.1,1.2,4.3,0l0,0c1.2-1.2,1.2-3.1,0-4.3L5.3,0.9C4-0.3,2.2-0.3,0.9,0.9l0,0
+			C-0.3,2.2-0.3,4,0.9,5.3z"/>
 	</g>
 </g>
 </svg>
