@@ -1,17 +1,17 @@
 window.onload = () => {
   const open = document.getElementById("burger-menu-open");
   const close = document.getElementById("burger-menu-close");
-  const toggle = document.getElementById("toggle");
+  const navMenu = document.getElementById("nav-menu");
 
   open.addEventListener("click", () => {
     open.style.display = "none";
     close.style.display = "block";
-    toggle.style.display = "block";
+    navMenu.classList.add("nav-menu-displayed")
   });
 
   close.addEventListener("click", () => {
     close.style.display = "none";
     open.style.display = "block";
-    toggle.style.display = "none";
+    navMenu.classList.remove("nav-menu-displayed")
   });
 };

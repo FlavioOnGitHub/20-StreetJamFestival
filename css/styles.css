@@ -23,6 +23,10 @@ h2 {
 }
 
 /* start of the header section */
+video {
+  display: block;
+}
+
 header p {
   text-align: center;
   font-size: 14px;
@@ -47,6 +51,12 @@ h1 {
   margin: 0;
 }
 
+h1 span {
+  position: absolute;
+  top: -4000px;
+  left: -4000px;
+}
+
 /*burger menu*/
 button  {
   background-color: transparent;
@@ -68,12 +78,18 @@ button  {
   display: none;
 }
 
-/* toggle */
-.nav-toggle {
-  display: none;
+/* hidden/visible navigation */
+.nav-menu {
+  height: 0;
+  overflow: hidden;
+  transition: all 0.4s ease-in-out;
 }
 
-.nav-toggle ul {
+.nav-menu-displayed {
+  height: 139px;
+}
+
+.nav-menu ul {
   list-style: none;
   padding: 7px 120px 30px;
   margin: 0;
@@ -84,15 +100,15 @@ button  {
   box-sizing: border-box;
 }
 
-.nav-toggle li {
-  margin-bottom: 5px;
+.nav-menu li {
+  margin-bottom: 9px;
 }
 
-.nav-toggle li:last-of-type {
+.nav-menu li:last-of-type {
   margin-bottom: 0;
 }
 
-.nav-toggle a {
+.nav-menu a {
   color: #EDC4D9;
   text-decoration: none;
   font-weight: 300;
@@ -100,10 +116,11 @@ button  {
   transition: 0.5s;
 }
 
-.nav-toggle a:hover {
-  text-decoration: solid;
+.nav-menu a:hover {
   font-size: 23.3px;
   color: rgb(249, 217, 255);
+  text-decoration: underline;
+  transition: text-decoration 2.5s;
 }
 /* end of the header section */
 
