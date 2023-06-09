@@ -1,5 +1,5 @@
 * {
-  font-family: urbane rounded;
+  font-family: urbane-rounded, sans-serif;
   font-weight: 500;
 }
 
@@ -97,6 +97,7 @@ button  {
   background-color: #7E4B8E;
   position: relative;
   width: 375px;
+  height: 139px;
   box-sizing: border-box;
 }
 
@@ -117,7 +118,7 @@ button  {
 }
 
 .nav-menu a:hover {
-  font-size: 23.3px;
+  font-size: 23.1px;
   color: rgb(249, 217, 255);
   text-decoration: underline;
   transition: text-decoration 2.5s;
